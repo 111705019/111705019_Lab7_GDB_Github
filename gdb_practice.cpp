@@ -18,8 +18,8 @@ public:
 
     child(int a, string b) { value = a; id = b; dad = nullptr; } // 故意讓 dad 為 null
     void printinfo() { 
-        cout << value << " "; 
-        cout << id << endl;
+        cout << dad->value << " "; 
+        cout << dad->id << endl;
     }
 };
 
